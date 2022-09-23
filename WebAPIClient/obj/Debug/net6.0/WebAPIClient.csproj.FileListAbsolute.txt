@@ -1,0 +1,15 @@
+D:\OneDrive\C_Sharp\C_Sharp_API\WebAPIClient\bin\Debug\net6.0\WebAPIClient.exe
+D:\OneDrive\C_Sharp\C_Sharp_API\WebAPIClient\bin\Debug\net6.0\WebAPIClient.deps.json
+D:\OneDrive\C_Sharp\C_Sharp_API\WebAPIClient\bin\Debug\net6.0\WebAPIClient.runtimeconfig.json
+D:\OneDrive\C_Sharp\C_Sharp_API\WebAPIClient\bin\Debug\net6.0\WebAPIClient.dll
+D:\OneDrive\C_Sharp\C_Sharp_API\WebAPIClient\bin\Debug\net6.0\WebAPIClient.pdb
+D:\OneDrive\C_Sharp\C_Sharp_API\WebAPIClient\obj\Debug\net6.0\WebAPIClient.csproj.AssemblyReference.cache
+D:\OneDrive\C_Sharp\C_Sharp_API\WebAPIClient\obj\Debug\net6.0\WebAPIClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive\C_Sharp\C_Sharp_API\WebAPIClient\obj\Debug\net6.0\WebAPIClient.AssemblyInfoInputs.cache
+D:\OneDrive\C_Sharp\C_Sharp_API\WebAPIClient\obj\Debug\net6.0\WebAPIClient.AssemblyInfo.cs
+D:\OneDrive\C_Sharp\C_Sharp_API\WebAPIClient\obj\Debug\net6.0\WebAPIClient.csproj.CoreCompileInputs.cache
+D:\OneDrive\C_Sharp\C_Sharp_API\WebAPIClient\obj\Debug\net6.0\WebAPIClient.dll
+D:\OneDrive\C_Sharp\C_Sharp_API\WebAPIClient\obj\Debug\net6.0\refint\WebAPIClient.dll
+D:\OneDrive\C_Sharp\C_Sharp_API\WebAPIClient\obj\Debug\net6.0\WebAPIClient.pdb
+D:\OneDrive\C_Sharp\C_Sharp_API\WebAPIClient\obj\Debug\net6.0\WebAPIClient.genruntimeconfig.cache
+D:\OneDrive\C_Sharp\C_Sharp_API\WebAPIClient\obj\Debug\net6.0\ref\WebAPIClient.dll
