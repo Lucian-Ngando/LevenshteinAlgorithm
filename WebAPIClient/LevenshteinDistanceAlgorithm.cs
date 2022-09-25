@@ -38,7 +38,6 @@ public class LevenshteinDistanceAlgorithm
                 }
 
 
-
                 //charaters are different
                 else
                 {
