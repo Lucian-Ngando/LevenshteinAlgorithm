@@ -43,6 +43,8 @@ class Program
     static void Main(string[] args)
     {
         var newData = new StringData();
+        List<(double, string)> l = new();
+        List<(double, string)> r = new();
 
         //List<Repositories> _repositories = await ProcessRepositories();
         //List<(double, string)> l = new();
@@ -60,22 +62,44 @@ class Program
 
         //Console.Read();
 
-
-
         foreach (var item in newData.AllStringData())
         {
-            List<(double, string)> l = new();
 
             string value = LevenshteinDistanceAlgorithm.LevenshteinDistance("media seequel films", item);
 
+
             l.Add((double.Parse(value), item));
-
-            l = l.OrderBy(p => p.Item1).ToList();
-            l.ForEach(p => Console.WriteLine($"\n{p.Item1}: \n{p.Item2}"));
-
             //Console.WriteLine("\n{0}\n",item);
             
         }
+
+        ///<method WeightRespone()>{For strings that is shorter then the average string.lenght, put a variable length to balance
+        ///out the string.length}</>
+        ///
+        double avg_dist = l.Average(p => p.Item1);
+        double avg_chars = l.Average(p => p.Item2.Length);
+
+        foreach (var item in l)
+        {
+            if (item.Item2.Length < avg_chars)
+            {
+
+               r.Add( (item.Item1 * (avg_chars / 100), item.Item2));
+
+            }
+            else
+            {
+                r.Add((item.Item1, item.Item2));
+            }
+
+        }
+
+        r = r.OrderBy(p => p.Item1).ToList();
+
+
+
+
+        r.ForEach(p => Console.WriteLine($"\n{p.Item1}: \n{p.Item2}"));
 
         Console.Read();
     }
