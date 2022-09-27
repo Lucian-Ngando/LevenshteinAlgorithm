@@ -45,6 +45,7 @@ class Program
         var newData = new StringData();
         List<(double, string)> l = new();
         List<(double, string)> r = new();
+        string inputString = "  such as the negotiations";
 
         //List<Repositories> _repositories = await ProcessRepositories();
         //List<(double, string)> l = new();
@@ -64,8 +65,8 @@ class Program
 
         foreach (var item in newData.AllStringData())
         {
-
-            string value = LevenshteinDistanceAlgorithm.LevenshteinDistance("media seequel films", item);
+            
+            string value = LevenshteinDistanceAlgorithm.LevenshteinDistance(inputString, item);
 
 
             l.Add((double.Parse(value), item));
@@ -84,8 +85,12 @@ class Program
             if (item.Item2.Length < avg_chars)
             {
 
-               r.Add( (item.Item1 * (avg_chars / 100), item.Item2));
+               r.Add( (item.Item1 * 1.8, item.Item2));
 
+            }
+            else if (item.Item2.Contains($"{inputString}"))
+            {
+                r.Add((item.Item1 * 0.4, item.Item2));
             }
             else
             {
